@@ -1,0 +1,319 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  margin-left: 50px;
+  border: 1px solid white;
+  background-color: red;
+  border-radius: 10px;
+
+  padding: 5px;
+}
+nav a:last-child {
+  margin-right: 50px;
+}
+nav a:hover {
+  background-color: white;
+  color: red;
+}
+nav {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  background-image: url("img/crypto-anonimus.jpg");
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: cover; /*   jako bitna stvar koja menja velicinu */
+  background-position: center;
+}
+
+#sign {
+  margin-right: 600px;
+  display: inline-block;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#sign a {
+  margin: 2px;
+  padding: 5px;
+}
+
+.telo {
+  height: 600px;
+
+  background-image: url("img/phone-01\ \(1\).png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  flex-grow: 1;
+
+  width: 620px;
+}
+
+.input {
+  height: 500px;
+  flex-grow: 1;
+  margin: 0;
+  font-size: 62px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input h1 {
+  font-size: 62px;
+  margin-bottom: 90px;
+}
+
+.proba {
+  display: flex;
+  height: 500px;
+}
+
+#span {
+  background-color: red;
+  height: 20px;
+  color: white;
+  text-align: center;
+}
+
+.input input {
+  padding: 8px;
+  margin-left: 40px;
+}
+.input a {
+  text-decoration: none;
+  color: white;
+  background-color: red;
+  padding: 10px;
+  border-radius: 10px;
+}
+#email {
+  margin-top: 0px;
+  width: 300px;
+}
+i {
+  color: white;
+  padding: 5px;
+}
+#footer {
+  height: auto;
+  margin-top: 30px;
+  border-top: 2px solid red;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+.wrapper {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  place-items: cnter;
+}
+.wrapper .button {
+  border: 1px solid black;
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  float: left;
+  margin: 0 5px;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:hover {
+  width: 200px;
+}
+.wrapper .button .icon {
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1):hover .icon {
+  background: #4267b2;
+}
+.wrapper .button:nth-child(2):hover .icon {
+  background: #1da1f2;
+}
+.wrapper .button:nth-child(3):hover .icon {
+  background: #e1306c;
+}
+.wrapper .button:nth-child(4):hover .icon {
+  background: #333;
+}
+.wrapper .button:nth-child(5):hover .icon {
+  background: #ff0000;
+}
+.wrapper .button .icon i {
+  font-size: 25px;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:hover .icon i {
+  color: #fff;
+}
+.wrapper .button span {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 60px;
+  margin-left: 10px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1) span {
+  color: #4267b2;
+}
+.wrapper .button:nth-child(2) span {
+  color: #1da1f2;
+}
+.wrapper .button:nth-child(3) span {
+  color: #e1306c;
+}
+.wrapper .button:nth-child(4) span {
+  color: #333;
+}
+.wrapper .button:nth-child(5) span {
+  color: #ff0000;
+}
+
+#span {
+  height: 30px;
+}
+
+.nav {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  background-image: none;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: cover; /*   jako bitna stvar koja menja velicinu */
+  background-position: center;
+}
+.body {
+  background-image: url("img/gas.jpg");
+  height: 875px;
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: cover; /*   jako bitna stvar koja menja velicinu */
+  background-position: center;
+}
+
+.form-group {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  padding-bottom: 100px;
+}
+
+.image {
+  margin-right: 20px;
+  margin-left: 20px;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 50px;
+  margin-right: 50px;
+}
+
+.container img {
+  height: 200px;
+}
+
+.add-cart {
+  position: absolute;
+  width: 100%;
+  background-color: darkgrey;
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+  cursor: pointer;
+  text-align: center;
+  color: black;
+}
+
+.image:hover .cart1,
+.image:hover .cart2,
+.image:hover .cart3,
+.image:hover .cart4 {
+  bottom: 50px;
+  opacity: 1;
+  padding: 10px;
+  text-decoration: none;
+}
+
+/* cart page */
+
+.products-container {
+  max-width: 650px;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+
+  flex-wrap: wrap;
+  padding-bottom: 100px;
+}
+
+.product-header {
+  width: 100%;
+  max-width: 650px;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 4px solid red;
+  margin: 0 auto;
+}
+
+.product-title {
+  width: 45%;
+}
+
+.price {
+  width: 15%;
+
+  display: flex;
+  align-items: center;
+}
+
+.total {
+  width: 10%;
+
+  display: flex;
+  align-items: center;
+}
+
+.product {
+  width: 45%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+}
+.quantity {
+  width: 30%;
+
+  display: flex;
+  align-items: center;
+}
